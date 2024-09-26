@@ -17,6 +17,24 @@ class Patient extends StatelessWidget {
           title: Text("patient app"),
           backgroundColor: Colors.amber,
         ),
+        body: Container(
+          child: Column(
+            children: [
+              Text("Enter the name"),
+              TextField(),
+              Text("Enter mobile number"),
+              TextField(),
+              Text("email-id"),
+              TextField(),
+              Text("address"),
+              TextField(),
+              Text("pincode"),
+              TextField(),
+              ElevatedButton(onPressed: (){
+              },child: Text("submit"))
+            ],
+          ),
+        ),
       ),
     );
   }
